@@ -1,9 +1,16 @@
 {
-  "name": "grass-loader",
+  "name": "@guoyunhe/grass-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Faster Sass loader for Webpack",
   "keywords": [
-    "node"
+    "sass",
+    "scss",
+    "css",
+    "style",
+    "webpack",
+    "loader",
+    "compiler",
+    "transform"
   ],
   "homepage": "https://github.com/guoyunhe/grass-loader#readme",
   "bugs": {
@@ -14,7 +21,7 @@
     "url": "git+https://github.com/guoyunhe/grass-loader.git"
   },
   "funding": "https://github.com/sponsors/guoyunhe",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": {
     "name": "Guo Yunhe",
     "email": "i@guoyunhe.me"
@@ -46,10 +53,27 @@
     "preset": "@guoyunhe/node-scripts"
   },
   "devDependencies": {
+    "@connorskees/grass": "^0.12.0",
     "@guoyunhe/node-scripts": "^2.0.0",
     "@tsconfig/node16": "^1.0.0",
     "@types/jest": "^29.0.0",
+    "@types/loader-utils": "^2.0.3",
     "@types/node": "^16.0.0",
-    "typescript": "^4.0.0"
+    "css-loader": "^6.7.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.1",
+    "style-loader": "^3.3.2",
+    "typescript": "^4.0.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "loader-utils": "^3.2.1",
+    "schema-utils": "^4.0.0"
+  },
+  "peerDependencies": {
+    "@connorskees/grass": "^0.12.0",
+    "webpack": "^5.0.0"
   }
 }

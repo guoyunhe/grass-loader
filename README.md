@@ -8,7 +8,7 @@ and distributed as WASM.
 ## Install
 
 ```bash
-npm i @guoyunhe/grass-loader webpack
+npm i -D @guoyunhe/grass-loader @connorskees/grass webpack
 ```
 
 ## Usage

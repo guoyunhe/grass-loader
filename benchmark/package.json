@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "dart-sass": "webpack --config dart-sass.webpack.config.js",
+    "node-sass": "webpack --config node-sass.webpack.config.js",
+    "grass": "webpack --config grass.webpack.config.js"
+  }
+}
